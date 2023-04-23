@@ -1,0 +1,7 @@
+Sinopsis o idea principal del juego
+
+El juego se va a llamar Master Quest Symphony of the time
+
+Va a ser una continuación del mismo proyecto que estoy haciendo con respecto al metroidvania que tenía en mente en HTML5. Solo que esto lo utilizaré después.
+
+Sinopsis: Nuestro héroe se encuentra en un bosque vagando en un viaje a una aventura personal, debido a que se estaba dedicando a mejorar sus habilidades y entrenar. En el transcurso se consigue con un relojero que lo lleva a un mundo retorcido y abstracto en el que nuestro héroe tendrá que batallar con formidables enemigos para poder regresar a su mundo

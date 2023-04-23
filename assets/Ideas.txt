@@ -1,0 +1,14 @@
+**IDEAS PARA HACER EL JUEGO DE LA JAM**
+
+-Viajes en el tiempo
+
+-Hacer un juego que trate sobre un reloj
+
+-Hacer un juego que tenga un límite de tiempo
+
+** Mecánicas que podría implementar para el juego
+
+Efecto espejo (En caso de ser un rpg) que el personaje se vea reflejado en una zona y aparezca en otra por la alteración del flujo del tiempo
+
+
+Un reloj que si llega a cierta hora se acaba el juego, que si las manecillas cambian de lugar y tienen cierta combinación que pase algo en específico. Que los segundos y los minutos tengan algún tipo de significado

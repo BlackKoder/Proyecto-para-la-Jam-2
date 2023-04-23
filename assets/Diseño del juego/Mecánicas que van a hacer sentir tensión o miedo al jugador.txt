@@ -1,0 +1,5 @@
+Deben de haber zonas en las que al dar un salto, el personaje caiga de forma muy justa en la plataforma en la que aterrizo, y debe de haber un obstáculo que sea capaz de quitarle la vida al jugador. El juego no va a tener una dificultad predefinida, la dificultad se va a ir viendo de forma gradual y líneal a medida que el jugador vaya avanzando en la historia del juego. Lo que quiere decir que cada jefe va a ser más difícil que el otro. Pero que van a poder derrotarse con la mecánica que aprendieron en el nivel
+
+Deben de haber enemigos en cada nivel que representen un obstáculo, y deberían de estar en lugares que pueden hacer que te hagas daño si te tumban de una plataforma por ejemplo, o que hayan más enemigos acumulados en una zona. Esto aumentará el nivel de dificultad del juego. Algún punto donde las mecánicas no ayuden lo suficiente al jugador para poder salvar a su personaje es algo que podría generar tensión. Pero debe de ser de una forma equilibrada
+
+Todo debe de compenetrarse junto al nivel que se haya diseñado, pero eso se verá más adelante.

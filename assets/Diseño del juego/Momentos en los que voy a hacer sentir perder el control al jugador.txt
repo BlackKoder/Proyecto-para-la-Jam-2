@@ -1,0 +1,7 @@
+Diálogos (Van a ser lo más cortos posibles) Los diálogos que surgen entre la interfaz de usuario y el jugador, no pueden ser muy largos deben de explicar lo más breve y rápido posible
+
+Cinemáticas: Esta solo va a aparecer al principio y al final del juego, nada muy elaborado y puede verse representado en forma de storyboard
+
+Pantallas de carga: No van a haber
+
+Tengo que tener en cuenta si va a haber alguna forma de teletransportarse en el juego o en el por qué de eso.

@@ -1,0 +1,3 @@
+Me gustaría que el juego tenga una transición del día y la noche, en el que tenga un límite de tres días para completar el juego, y que para evitar que pierdas el juego por no haberlo completado en ese número de días que entonces tú tengas que tocar una melodía que te regresa en el tiempo.
+
+Quiero que sea un juego relativamente colorido, pero que mantenga un poco la idea del aspecto que tenía en mente para el otro... O sea, que sea como atractivo y colorido, pero un poco oscuro

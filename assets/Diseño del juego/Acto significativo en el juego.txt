@@ -1,0 +1,5 @@
+Los actos significativos del juego van a poder variar tanto a lo ideal para nosotros como desarrolladores, a lo personal para los jugadores, sin embargo. Vamos a tener en cuenta que los jugadores van a ser recompensados en algunos momentos, como por ejemplo, para conseguir un objeto que pueda hacer que suba la barra de magia o de vida, esté situado en un lugar con muchos obstáculos o que esté oculto de una forma en la que cuando el jugador encuentre lo que tiene que encontrar se encuentre satisfecho.
+
+Atravesar los obstáculos que se le presentan en el nivel hasta llegar a cada Boss.
+
+Y posiblemente encontrar algún item que contribuya a la narrativa del juego, algo que tenga un valor para el jugador en cuánto a la historia pero que no sea significativo

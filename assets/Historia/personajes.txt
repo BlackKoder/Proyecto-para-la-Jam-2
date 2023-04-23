@@ -1,0 +1,19 @@
+Personaje jugable: Héroe
+
+Enemigos: 3 de cada tipo en cada nivel o estado
+
+Estado o niveles: 3
+
+Boss: 3
+
+Boss 1: Buho, conejo o pájaro loco 
+
+Boss 2: Puede ser un enemigo un tanto abstracto como un golem de madera y piedra que tenga cuernos de venado, y una calavera como cara, que sus ojos esten en las manos
+
+Boss Final: Relojero
+
+Enemigos normales del primer nivel: Minotauros, kitsune o zorro (Estos podrían ser remplazados por lechuzas), trol
+
+Enemigos normales del segundo nivel: Cíclopes, wendigo, hellhound
+
+Enemigos del tercer nivel:

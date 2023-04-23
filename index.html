@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Chrystian">
+	<title>Master Quest</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+</head>
+<body>
+	<!--Contenedor en general-->
+	<div class="container">
+		<div class="container-player">
+			<!--Barras del jugador-->
+			<div class="container-bar">
+				<!--Barra de salud del jugador-->
+				<div class="contenedor-playerHealth">
+					<div class="player-health"></div>
+					<div id="playerHealth" class="playerAbsolute"></div>
+				</div>
+				<!--Barra de mana-->
+				<div class="player-mana"></div>	
+			</div>
+
+			<!--Tiempo-->
+			<div id="timer" class="reloj">30</div>
+			<!--Barra del enemigo-->
+			<div class="contenedor-enemyHealth">
+				<div class="enemy-health"></div>
+				<div id="enemyHealth" class="enemyAbsolute"></div>
+			</div>
+		</div>
+		<div id="display-text" style="color: #000; position: absolute; display: flex;
+		align-items: center; justify-content: center; top: 0; right: 30%; bottom: 0; left: 0;
+		display: none;">Time Over</div>
+		<canvas></canvas>
+	</div>
+	<script src="assets/js/data/collisions.js"></script>
+	<script src="assets/js/classes/background.js"></script>
+	<script src="assets/js/classes/collisionblock.js"></script>
+	<script src="assets/js/classes/sprite.js"></script>
+	<script src="assets/js/utils.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>

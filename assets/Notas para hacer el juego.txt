@@ -1,0 +1,37 @@
+-Haz un juego de 5 minutos: Por lo general es una competencia en la que hay muchos competidores, de nada sirve hacer un juego tan largo si al final los jueces van a ir picando y probando cada juego
+
+-Hazlo fácil de terminar: A nadie le gusta dejar un juego sin terminar y si lo hacen es porque les parece aburrido, entonces trata de no poner las mecánicas muy difíciles
+
+-No hagas algo genérico: No hace falta reinventar la rueda, pero debe de tener algo único que por lo menos merezca la pena jugarlo
+
+-Aplica el tema a la jugabilidad: Tengo que crear mecánicas en torno a ese tema, los juegos de jam menos interesantes son los que usan un tema de forma superficial. Supongamos que el tema es el amor, hay buenas posibilidades que se pueden utilizar como tal vez tenemos a dos personajes que están enamorados constantemente, tal vez se tienen que administrar recursos para mantener el amor de tu pareja, tal vez los enemigos están enamorados de ti. Y no hacer algo superficial como el que crear un juego de plataforma 2d estilo mario, en el que en vez de recoger monedas recoges corazones, o si la temática fuera del espacio, haces el mismo juego pero con temática espacial, recogiendo estrellas. Aplicar el tema a la jugabilidad lo que hará es que cree un juego único que provocará jugar a pesar de que no sea tan bueno
+
+-No te preocupes si sale mal: Estoy para divertirme, aprender, que otras personas conozcan lo que hago, y ver hasta donde llegan mis habilidades... Conseguir el premio lo voy a dejar en segundo plano
+
+-Descarta la primera idea: Lo primero que piense para hacer el juego debería de descartarlo, porque posiblemente otros estén pensando lo mismo que yo y simplemente lo va a volver un juego genérico. Tengo que buscar de verlo desde otra perspectiva, y conseguir eso que otros no hayan pensado de la palabra. Por ejemplo la palabra "Ritual"... Por lo general cualquiera pensaría en una secta o culto de personas donde están haciendo algo malo. Pero también esa palabra podría ser utilizada para la ceremonia japonesa del té.. Ya que es un ritual, y es más o menos el ver las cosas de forma distinta
+
+-No te obligues a utilizar una interpretación diferente: Aunque la ceremonia del té pueda resultar más original, podrían salir ideas mucho más divertidas haciendo algo con la palbra ritual... Entonces el objetivo es que el juego sea divertido, y si no cumple con eso entonces no tiene sentido esa idea
+
+-Cuidado con los juegos de palabras: Hay que tener cuidado con los temas de palabras con interpretaciones que están claro de lo que van. Por ejemplo el tema "Un botón" está claro que la idea principal es que la gente haga un juego original pulsando un solo botón, o que para ganar el juego tengas que pulsar una combinación de botones. Se podría estirar un poco y hacer un juego donde pulses varios botones pero solo uno sea el correcto. Lo que probablemente no debería de hacer es un juego donde el personaje pierde el botón de su camisa y debe recuperarlo pero todo el juego se juega con los mismos botones de un juego normal. Hay que pensar bien qué se va a hacer para el juego
+
+-Haz un juego simple: Lo peor que te puedes conseguir en una Jam es un muro de texto donde te digan cada una de las funcionalidades de los controles, lo mejor es que el juego sea intuitivo o si tiene un tutorial que sea corto, rápido y preciso de entender. Si ponemos una cinemática al principio. Que se pueda saltar
+
+-Usa controles estándares: Si es en primera persona, ratón para apuntar o interactuar, wasd para moverse y espacio para saltar. Si es en 2D y no hace falta apuntar, flechas para moverse y las teclas z e y para las acciones. Enter para aceptar escape para cancelar pausar o sacar el menú. No hacer que al darle a escape el juego se cierre directamente. Evitar usar el ratón en los menús si el resto del juego se juega solamente con teclado, es bastante irritante tener que pasar de uno a otro si ya estás acostumbrado
+
+-No hagas que empiece solo: Como mínimo debería de haber es una pantalla con un botón que diga jugar o salir, o la pantalla que diga como mínimo pulsa un botón para empezar
+
+-Céntrate en una sola mecánica: Para un juego de Jam no hace falta más, es mejor buscar una sola mecánica original y sacarle todo el partido que puedas en unos pocos niveles en vez de intentar complicarlo. En los juegos de Jam cuando entiendes la idea se acaba el interés. Lo que debería de hacer es enseñar el potencial de mi idea de una forma rápida y concisa. Si el juego tiene varios niveles debe de implementar esa mecánica de forma diferente sin repetir lo mismo que ya habíamos visto pero yendo al grano 
+
+-Cuidar los gráficos: Esto será un punto muy a favor ya que probablemente podrían participar artistas, por lo que sería bueno por lo menos hacer que eso destacara, bien para poder por lo menos adelantar podría utilizar assets, pero por lo menos para los sprites del fondo, ya que si uso un sprite genérico para el personaje alguien podría ya haberlo utilizado, entonces es mejor que trate de hacerlo diferente si es posible
+
+-No ignorar el sonido y la música: Un juego sin sonido puede dar una muy mala impresión
+
+-Cuida la presentación en la web: Hay que cuidar la presentación en la web donde se publica el juego. Hay que poner capturas del juego y dedicarle a hacer un logo atractivo y bonito. Esto va a ser lo que haga que la gente quiera probar mi juego en vez de querer probar otro
+
+-Sube una versión descargable: Es una buena idea subir un juego que se pueda jugar directamente desde el navegador,así no hace falta descargarlo y más gente se animará a probarlo, si es posible también hay que tener una versión descargable
+
+-No titules el juego con el nombre de la Jam: No debo de ponerle el nombre del juego de la Jam, es difícil hacer el nombre ya que tendría que hacerlo con un juego de palabras. Pero va a ser difícil destacar si nadie ve mi juego como un juego que no sea genérico a los demás
+
+-Prueba y comenta los juegos de los demás: Si quieres que los demás jueguen tu juego deberías de probar y comentar los juegos de los demás
+
+-Haz el juego que te apetece hacer: La verdadera victoria está en estar orgulloso de ti mismo, así que no le prestes atención a los demás. Si ya tenía pensado hacer algo o es una idea arriesgada debo de intentarlo, después de todo el que tiene que estar más satisfecho soy yo

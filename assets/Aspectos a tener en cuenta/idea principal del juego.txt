@@ -1,0 +1,15 @@
+Estilo de dibujo: Entre kawaii y oscuro... Con un pequeño toque pixel
+
+Género: Metroidvania
+
+Estilo de juego: 2D
+
+Enemigos: 3 por cada zona
+
+Zonas: 3
+
+Boss: 3
+
+Tipo de juego: Líneal con algo de libertad...
+
+Personajes jugables: 1
