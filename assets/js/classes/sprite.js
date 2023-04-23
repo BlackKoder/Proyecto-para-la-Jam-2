@@ -35,6 +35,16 @@ class Sprite extends Background{
 		this.isAttacking;
 		this.health = 100;
 		this.collisionBlocks = collisionBlocks;
+		//Esto es para hacer la caja que va a encerrar a nuestro personaje
+		//Y así podremos hacer la interacción con los colliders desde él
+		this.hitbox = {
+			position: {
+				x: this.position.x,
+				y: this.position.y,
+			},
+			width: 10,
+			height: 10,
+		}
 
 	}
 
@@ -50,23 +60,50 @@ class Sprite extends Background{
 	update(){
 		//Hacemos el llamado de updateFrames desde la clase Background
 		this.updateFrames();
+		//Hacemos el llamado de hitbox
+		this.updateHitbox();
 		//Esto es para hacer el cropbox que nos dice cuánto espacio abarca nuestro jugador
 		c.fillStyle = 'rgba(0, 255, 0, 0.2)';
 		c.fillRect(this.position.x, this.position.y, this.width, this.height);
+
+		//Esto es para hacer el hitbox que posiciona nuestro jugador en el cropbox
+		c.fillStyle = 'rgba(255, 0, 0, 0.2)';
+		c.fillRect(
+			this.hitbox.position.x, 
+			this.hitbox.position.y, 
+			this.hitbox.width, 
+			this.hitbox.height);
 
 		this.draw();
 		this.attackBox.position.x = this.position.x + this.attackBox.offset.x;
 		this.attackBox.position.y = this.position.y;
 
 		this.position.x += this.velocity.x;
+		this.updateHitbox();
 		this.checkForHorizontalCollisions();
 		this.applyGravity();
+		this.updateHitbox();
 		this.checkForVerticalCollisions();
 
 		/*if (this.position.y + this.height + this.velocity.y < canvas.height) {
 		}else {
 			this.velocity.y = 0;
 		}*/
+	}
+
+	//Se establecen las mismas propiedades desde aquí ya que así estará siendo
+	//Actualizados sus valores por cada frame
+	//Nota: Tenemos que hacer referencia de hitbox desde el objeto 1 de collision
+	//Si queremos que interactue este precisamente con los colliders que hemos creado
+	updateHitbox(){
+		this.hitbox = {
+			position: {
+				x: this.position.x + 35,
+				y: this.position.y + 26,
+			},
+			width: 14,
+			height: 27,
+		}
 	}
 
 	//Aquí manejamos la gravedad de una forma un poco más cómoda y organizada
@@ -81,18 +118,27 @@ class Sprite extends Background{
 			const collisionBlock = this.collisionBlocks[i];
 
 			if (collision({
-				object1: this,
+				object1: this.hitbox,
 				object2: collisionBlock,
 			})) {
 				if (this.velocity.y > 0) {
 					this.velocity.y = 0;
-					this.position.y = collisionBlock.position.y - this.height - 0.01;
+
+					const offset = 
+						this.hitbox.position.y - this.position.y + this.hitbox.height;
+
+					this.position.y = collisionBlock.position.y - offset - 0.01;
 					break;
 				}
 
 				if (this.velocity.y < 0) {
 					this.velocity.y = 0;
-					this.position.y = collisionBlock.position.y + collisionBlock.height + 0.01;
+
+					const offset = 
+						this.hitbox.position.y - this.position.y;
+
+					this.position.y = 
+						collisionBlock.position.y + collisionBlock.height - offset + 0.01;
 					break;
 				}
 			}
@@ -105,18 +151,24 @@ class Sprite extends Background{
 			const collisionBlock = this.collisionBlocks[i];
 
 			if (collision({
-				object1: this,
+				object1: this.hitbox,
 				object2: collisionBlock,
 			})) {
 				if (this.velocity.x > 0) {
 					this.velocity.x = 0;
-					this.position.x = collisionBlock.position.x - this.width - 0.01;
+					const offset =
+						this.hitbox.position.x - this.position.x + this.hitbox.width;
+					this.position.x = collisionBlock.position.x - offset - 0.01;
 					break;
 				}
 
 				if (this.velocity.x < 0) {
 					this.velocity.x = 0;
-					this.position.x = collisionBlock.position.x + collisionBlock.width + 0.01;
+
+					const offset =
+						this.hitbox.position.x - this.position.x;
+					this.position.x = 
+						collisionBlock.position.x + collisionBlock.width - offset + 0.01;
 					break;
 				}
 			}
