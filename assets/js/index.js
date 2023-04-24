@@ -66,7 +66,7 @@ const gravity = 0.5;
 const player = new Sprite({
 			position:{
 				x: 150,
-				y: 0
+				y: 300
 			},
 			velocity:{
 				x: 0,
@@ -79,6 +79,48 @@ const player = new Sprite({
 			collisionBlocks,
 			imageSrc: './assets/img/warrior/Idle.png',
 			frameRate: 8,
+			animations: {
+				Idle: {
+					imageSrc: './assets/img/warrior/Idle.png',
+					frameRate: 8,
+					frameBuffer: 3,	
+				},
+				Run: {
+					imageSrc: './assets/img/warrior/Run.png',
+					frameRate: 8,	
+					frameBuffer: 5,
+				},
+				Jump: {
+					imageSrc: './assets/img/warrior/Jump.png',
+					frameRate: 2,	
+					frameBuffer: 3,
+				},
+				Fall: {
+					imageSrc: './assets/img/warrior/Fall.png',
+					frameRate: 2,	
+					frameBuffer: 3,
+				},
+				FallLeft: {
+					imageSrc: './assets/img/warrior/FallLeft.png',
+					frameRate: 2,	
+					frameBuffer: 3,
+				},
+				RunLeft: {
+					imageSrc: './assets/img/warrior/RunLeft.png',
+					frameRate: 8,	
+					frameBuffer: 5,
+				},
+				JumpLeft: {
+					imageSrc: './assets/img/warrior/JumpLeft.png',
+					frameRate: 2,	
+					frameBuffer: 3,
+				},
+				IdleLeft: {
+					imageSrc: './assets/img/warrior/IdleLeft.png',
+					frameRate: 8,	
+					frameBuffer: 3,
+				},
+			}
 			
 		});
 
@@ -201,11 +243,36 @@ function animate(){
 	//Aquí altero la velocidad del personaje y el desplazamiento del jugador
 	player.velocity.x = 0;
 	enemy.velocity.x = 0;
-
+	//Aquí hago que se muestren los sprite dependiendo de las teclas que he presionado,
+	//Y de la dirección que esté nuestro personaje
 	if (keys.d.pressed && player.lastKey === 'd') {
-		player.velocity.x = 5;
+		player.switchSprite('Run');
+		player.velocity.x = 3;
+		player.LastDirection = 'right';
 	}else if(keys.a.pressed && player.lastKey === 'a'){
-		player.velocity.x = -5;
+		player.switchSprite('RunLeft');
+		player.velocity.x = -3;
+		player.LastDirection = 'left';
+	}else if(player.velocity.y === 0){
+		if (player.LastDirection === 'right') {
+			player.switchSprite('Idle');
+		}else{
+			player.switchSprite('IdleLeft');
+		}
+	}
+	//Igualmente para la animación de salto y caída
+	if (player.velocity.y < 0) {
+		if (player.LastDirection === 'right') {
+			player.switchSprite('Jump');
+		}else{
+			player.switchSprite('JumpLeft');
+		}
+	}else if (player.velocity.y > 0){
+		if (player.LastDirection === 'right') {
+			player.switchSprite('Fall');
+		}else{
+			player.switchSprite('FallLeft');
+		}
 	}
 
 	//Aquí altero la velocidad del personaje y el desplazamiento del enemigo
