@@ -6,9 +6,15 @@ class Background{
 		//Con scale podemos modificar el tamaño de nuestro personaje o nuestro background
 		//dependiendo de la clase donde se coloque la propiedad
 		this.scale = scale;
+		//loaded hace referencia a la imagen cargada su valor por defecto es false
+		//Esto nos sirve para cuando se actualice la tasa de frames no desaparezca el personaje
+		//Por algunos segundos
+		this.loaded = false;
+		//Esto hace referencia a la carga de la imagen y de sus propiedades para mostrar el sprite
 		this.image.onload = () =>{
 			this.width = (this.image.width / this.frameRate) * this.scale;
 			this.height = this.image.height * this.scale;
+			this.loaded = true;
 		}
 		//Con esto ponemos las imagenes
 		this.image.src = imageSrc;
